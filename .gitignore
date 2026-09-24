@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+
+# Local backups, editor settings and interview preparation
+backups/
+.vscode/
+INTERVIEW_NOTES.md

@@ -1,0 +1,28 @@
+{
+  "snapshot": "data/prices_snapshot.csv",
+  "snapshot_sha256": "c30ae59deea573bb17e928273d2936154a45404197635ecae3b893a2a3b4a221",
+  "source_note": "Inherited saved snapshot; original download timestamp and adjustment settings were not recorded. The available downloader uses yfinance auto_adjust=True; this does not establish the provenance of the existing snapshot.",
+  "first_price_date": "2019-01-02",
+  "last_price_date": "2026-09-11",
+  "etf_return_observations": 1933,
+  "cross_asset_return_observations": 1859,
+  "portfolio_assets": [
+    "SPY",
+    "QQQ",
+    "GLD"
+  ],
+  "annual_rf": 0.03,
+  "trading_days": 252,
+  "rolling_window": 63,
+  "rebalancing": "daily, constant weights, before costs",
+  "python": "3.14.6",
+  "packages": {
+    "numpy": "2.5.2",
+    "pandas": "3.0.5",
+    "matplotlib": "3.11.1",
+    "statsmodels": "0.15.0",
+    "yfinance": "1.6.0",
+    "nbformat": "5.11.0",
+    "nbclient": "0.11.0"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "Yahoo Finance via yfinance",
+  "downloaded_at_utc": "2026-09-23T19:07:05.242692+00:00",
+  "yfinance_version": "1.6.0",
+  "requested_start_inclusive": "2015-01-01",
+  "requested_end_exclusive": "2026-01-01",
+  "adjustment": "auto_adjust=True; adjusted Close (Yahoo dividend and split adjustments); proxy for USD total returns, not official fund NAV total returns",
+  "tickers": {
+    "LQD": "iShares iBoxx $ Investment Grade Corporate Bond ETF",
+    "HYG": "iShares iBoxx $ High Yield Corporate Bond ETF",
+    "SPY": "SPDR S&P 500 ETF Trust"
+  },
+  "first_price_date": "2015-01-02",
+  "last_price_date": "2025-12-31",
+  "price_observations": 2766,
+  "return_observations": 2765,
+  "missing_prices": {
+    "LQD": 0,
+    "HYG": 0,
+    "SPY": 0
+  },
+  "missing_value_treatment": "No filling. Require complete prices on every supplied date; fail if missing. pct_change(fill_method=None); remove only the initial undefined return.",
+  "snapshot_sha256": "8e3414d6d11f84bf5ddcd31d71b6b97441e61fb1fce90e64103655fa459a7a5f"
+}

@@ -1,0 +1,23 @@
+{
+  "validated_at_utc": "2026-09-24T21:48:54.883861+00:00",
+  "snapshot_sha256": "8e3414d6d11f84bf5ddcd31d71b6b97441e61fb1fce90e64103655fa459a7a5f",
+  "execution": "Both notebooks executed in fresh kernels in a temporary copy using the project environment.",
+  "tests": "12 passed",
+  "saved_tables": "21 main and 5 Fixed Income tables numerically unchanged.",
+  "dependency_check": "pip check passed",
+  "checks": [
+    "Missing prices rejected; no forward filling",
+    "Compounded wealth reconciled to price ratios",
+    "CAGR, volatility, drawdown, Historical VaR and correlations checked",
+    "Stress returns include the preceding close; boundary tests passed",
+    "Stress correlation label follows selected benchmark",
+    "Notebook code cells completed without errors",
+    "Markdown links resolve; revised charts inspected"
+  ],
+  "limitations": [
+    "Main snapshot adjustment provenance incomplete",
+    "No independent second-vendor or exchange-calendar audit",
+    "No rate/spread attribution or issuer-level credit assessment",
+    "Retrospective stress windows differ in length"
+  ]
+}
